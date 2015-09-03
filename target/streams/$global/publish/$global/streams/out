@@ -1,0 +1,10 @@
+[0m[[0mdebug[0m] [0m	starting transaction: publish during transaction will be done in [0m
+[0m[[0mdebug[0m] [0m		C:\Users\sudhanshusr\.m2\repository\com\cybage\hellosbt\scala_test_plugin_created_2.11\0.1.0.part[0m
+[0m[[0mdebug[0m] [0m	and on commit moved to [0m
+[0m[[0mdebug[0m] [0m		C:\Users\sudhanshusr\.m2\repository\com\cybage\hellosbt\scala_test_plugin_created_2.11\0.1.0[0m
+[0m[[0minfo[0m] [0m	published scala_test_plugin_created_2.11 to C:\Users\sudhanshusr\.m2\repository\com\cybage\hellosbt\scala_test_plugin_created_2.11\0.1.0.part\scala_test_plugin_created_2.11-0.1.0.pom[0m
+[0m[[0minfo[0m] [0m	published scala_test_plugin_created_2.11 to C:\Users\sudhanshusr\.m2\repository\com\cybage\hellosbt\scala_test_plugin_created_2.11\0.1.0.part\scala_test_plugin_created_2.11-0.1.0.jar[0m
+[0m[[0minfo[0m] [0m	published scala_test_plugin_created_2.11 to C:\Users\sudhanshusr\.m2\repository\com\cybage\hellosbt\scala_test_plugin_created_2.11\0.1.0.part\scala_test_plugin_created_2.11-0.1.0-sources.jar[0m
+[0m[[0minfo[0m] [0m	published scala_test_plugin_created_2.11 to C:\Users\sudhanshusr\.m2\repository\com\cybage\hellosbt\scala_test_plugin_created_2.11\0.1.0.part\scala_test_plugin_created_2.11-0.1.0-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	publish commited: moved C:\Users\sudhanshusr\.m2\repository\com\cybage\hellosbt\scala_test_plugin_created_2.11\0.1.0.part [0m
+[0m[[0minfo[0m] [0m		to C:\Users\sudhanshusr\.m2\repository\com\cybage\hellosbt\scala_test_plugin_created_2.11\0.1.0[0m

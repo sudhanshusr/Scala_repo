@@ -1,0 +1,1 @@
+Index.PACKAGES = {"com" : [], "com.main" : [], "com.main.java" : [{"class" : "com\/main\/java\/HelloSBTJava.html", "name" : "com.main.java.HelloSBTJava"}], "com.main.scala" : [{"object" : "com\/main\/scala\/HelloSBTScala$.html", "class" : "com\/main\/scala\/HelloSBTScala.html", "name" : "com.main.scala.HelloSBTScala"}]};
