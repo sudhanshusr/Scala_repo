@@ -6,8 +6,8 @@
 		module="scala_test_plugin_created_2.11"
 		revision="0.1.0"
 		conf="provided"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150903152810"/>
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
+		date="20150911115816"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

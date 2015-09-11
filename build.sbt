@@ -10,4 +10,11 @@ scalaVersion := "2.11.6"
 //Name of Project
 name := "Scala_test_plugin_created"
 
-publishTo := Some(Resolver.file("file",  new File(Path.userHome.absolutePath+"/.m2/repository")))
+jacoco.settings
+
+
+libraryDependencies ++= 
+			Seq("junit" % "junit" % "4.10",
+			"com.novocode" % "junit-interface" % "0.11" % Test,
+				"org.scalatest" % "scalatest_2.11" % "2.2.4" % "test"
+    		)

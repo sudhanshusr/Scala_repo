@@ -4,7 +4,7 @@
 		module="scala_test_plugin_created_2.11"
 		revision="0.1.0"
 		status="integration"
-		publication="20150903152810"
+		publication="20150911115816"
 	>
 		<description>
 		Scala_test_plugin_created
@@ -24,6 +24,7 @@
 		<conf name="docs" visibility="public" description=""/>
 		<conf name="pom" visibility="public" description=""/>
 		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="jacoco" visibility="private" description="" extends="test"/>
 	</configurations>
 	<publications>
 		<artifact name="scala_test_plugin_created_2.11" type="pom" ext="pom" conf="pom"/>
@@ -35,6 +36,7 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.6" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="junit" name="junit" rev="4.10" conf="compile->default(compile)"/>
+		<dependency org="com.novocode" name="junit-interface" rev="0.11" conf="test->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.4" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
