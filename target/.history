@@ -84,3 +84,5 @@ jacoco:cover
 run
 exit
 scalastyle
+clean
+exit

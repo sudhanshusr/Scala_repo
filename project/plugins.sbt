@@ -5,3 +5,4 @@
 addSbtPlugin("de.johoop" % "jacoco4sbt" % "2.1.2")
 //addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.1.0")
 addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "0.7.0")
+addSbtPlugin("io.gatling" % "gatling-sbt" % "2.1.5")

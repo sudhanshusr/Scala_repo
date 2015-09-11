@@ -18,3 +18,11 @@ libraryDependencies ++=
 			"com.novocode" % "junit-interface" % "0.11" % Test,
 				"org.scalatest" % "scalatest_2.11" % "2.2.4" % "test"
     		)
+    		
+    		
+libraryDependencies +="io.gatling.highcharts" % "gatling-charts-highcharts" % "2.1.6" % "test"
+
+libraryDependencies +="io.gatling" % "gatling-test-framework"  % "2.1.6" % "test"
+
+enablePlugins(GatlingPlugin)
+    		
