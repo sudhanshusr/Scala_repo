@@ -86,3 +86,32 @@ exit
 scalastyle
 clean
 exit
+clean
+compile
+clean
+compile
+coveragetest
+coverage test
+coverageTest
+test
+coveragetest
+coverage test
+coverageTest
+coverageReport
+coverageEnabled
+coverageEnabled:True
+run
+coverageEnabled
+exit
+clean
+compile
+test
+coverragetest
+coverrageEnabled
+coverageEnabled
+coverageReport
+coverage
+coverageReport
+coverage test
+coverage
+test

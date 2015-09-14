@@ -12,17 +12,21 @@ name := "Scala_test_plugin_created"
 
 jacoco.settings
 
+coverageEnabled := true
+
 
 libraryDependencies ++= 
 			Seq("junit" % "junit" % "4.10",
 			"com.novocode" % "junit-interface" % "0.11" % Test,
 				"org.scalatest" % "scalatest_2.11" % "2.2.4" % "test"
     		)
-    		
-    		
-libraryDependencies +="io.gatling.highcharts" % "gatling-charts-highcharts" % "2.1.6" % "test"
+			
+libraryDependencies += "org.seleniumhq.selenium" % "selenium-java" % "2.35.0" % "test"
 
-libraryDependencies +="io.gatling" % "gatling-test-framework"  % "2.1.6" % "test"
+libraryDependencies ++= Seq(
+    "com.h2database" % "h2" % "1.3.174"
+)
+    		
+			
 
-enablePlugins(GatlingPlugin)
     		

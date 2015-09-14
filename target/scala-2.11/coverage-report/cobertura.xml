@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.00" lines-covered="6" lines-valid="0" branches-covered="0" branches-valid="0" branch-rate="0.00" complexity="0" version="1.0" timestamp="1442221478330">
+    <sources>
+        <source>--source</source>
+        <source>D:/scala soft/sbt_proj/Scala_test_plugin_created/src/main/scala-2.11</source>
+        <source>D:/scala soft/sbt_proj/Scala_test_plugin_created/src/main/scala</source>
+        <source>D:/scala soft/sbt_proj/Scala_test_plugin_created/src/main/java</source>
+    </sources>
+    <packages>
+        <package name="com.main.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
+            <classes>
+                <class 
+                name="HelloSBTScala" filename="com/main/scala/HelloSBTScala.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
+                    <methods>
+                        <method name="com.main.scala/HelloSBTScala/main" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="8" hits="0" branch="false"/>
+                                <line number="7" hits="0" branch="false"/>
+                                <line number="8" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.main.scala/HelloSBTScala/hello" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="3" hits="0" branch="false"/>
+                                <line number="3" hits="0" branch="false"/>
+                                <line number="3" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="3" hits="0" branch="false"/>
+                        <line number="8" hits="0" branch="false"/>
+                        <line number="7" hits="0" branch="false"/>
+                        <line number="3" hits="0" branch="false"/>
+                        <line number="3" hits="0" branch="false"/>
+                        <line number="8" hits="0" branch="false"/>
+                    </lines>
+</class>
+            </classes>
+        </package>
+    </packages>
+</coverage>
