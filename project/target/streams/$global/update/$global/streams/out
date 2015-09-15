@@ -200,65 +200,48 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.7.0->org.scalastyle#scalastyle_2.10;0.7.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.7.0->org.scalastyle#scalastyle_2.10;0.7.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.flywaydb#flyway-sbt;3.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.flywaydb#flyway-sbt;3.2.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.flywaydb#flyway-sbt;3.2.1[0m
+[0m[[0mdebug[0m] [0m	found org.flywaydb#flyway-sbt;3.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.flywaydb#flyway-core;3.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.flywaydb#flyway-core;3.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.flywaydb#flyway-core;3.2.1[0m
+[0m[[0mdebug[0m] [0m	found org.flywaydb#flyway-core;3.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.gatling#gatling-sbt;2.1.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.gatling#gatling-sbt;2.1.7 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.gatling#gatling-sbt;2.1.7[0m
+[0m[[0mdebug[0m] [0m	found io.gatling#gatling-sbt;2.1.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.3.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scoverage#sbt-scoverage;1.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scoverage#sbt-scoverage;1.3.0 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scoverage#sbt-scoverage;1.3.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scoverage#sbt-scoverage;1.3.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scoverage#sbt-scoverage;1.3.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scoverage#sbt-scoverage;1.3.0[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\sudhanshusr\.ivy2\local\org.scoverage\sbt-scoverage\scala_2.10\sbt_0.13\1.3.0\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scoverage#sbt-scoverage;1.3.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.3.0/sbt-scoverage-1.3.0.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.3.0/sbt-scoverage-1.3.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: no ivy file found for org.scoverage#sbt-scoverage;1.3.0[0m
-[0m[[0mdebug[0m] [0m		tried http://flywaydb.org/repo/org/scoverage/sbt-scoverage_2.10_0.13/1.3.0/sbt-scoverage-1.3.0.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://flywaydb.org/repo/org/scoverage/sbt-scoverage_2.10_0.13/1.3.0/sbt-scoverage-1.3.0.pom[0m
-[0m[[0mdebug[0m] [0m	Flyway: no ivy file found for org.scoverage#sbt-scoverage;1.3.0[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/scoverage/sbt-scoverage_2.10_0.13/1.3.0/sbt-scoverage-1.3.0.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/scoverage/sbt-scoverage_2.10_0.13/1.3.0/sbt-scoverage-1.3.0.pom[0m
-[0m[[0mdebug[0m] [0m	sonatype-releases: no ivy file found for org.scoverage#sbt-scoverage;1.3.0[0m
-[0m[[0mdebug[0m] [0m		tried https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	scoverage-bintray: found md file for org.scoverage#sbt-scoverage;1.3.0[0m
-[0m[[0mdebug[0m] [0m		=> https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml (1.3.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml ...[0m
-[0m[[0mdebug[0m] [0m	scoverage-bintray: downloading https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	scoverage-bintray: downloading https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scoverage#sbt-scoverage;1.3.0!ivy.xml(ivy.original) (964ms)[0m
-[0m[[0mdebug[0m] [0m	found org.scoverage#sbt-scoverage;1.3.0 in scoverage-bintray[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scoverage#sbt-scoverage;1.3.0[0m
+[0m[[0mdebug[0m] [0m	found org.scoverage#sbt-scoverage;1.3.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scoverage#scalac-scoverage-plugin_2.10;1.1.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scoverage#scalac-scoverage-plugin_2.10;1.1.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\sudhanshusr\.ivy2\local\org.scoverage\scalac-scoverage-plugin_2.10\1.1.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scoverage#scalac-scoverage-plugin_2.10;1.1.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scoverage#scalac-scoverage-plugin_2.10;1.1.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.pom (1.1.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scoverage#scalac-scoverage-plugin_2.10;1.1.1!scalac-scoverage-plugin_2.10.pom(pom.original) (1049ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.1.1/jars/scalac-scoverage-plugin_2.10.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.1.1/jars/scalac-scoverage-plugin_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.1.1/jars/scalac-scoverage-plugin_2.10.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.1.1/jars/scalac-scoverage-plugin_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\sudhanshusr\.ivy2\local\org.scoverage\scalac-scoverage-plugin_2.10\1.1.1\jars\scalac-scoverage-plugin_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-plugin_2.10;1.1.1[0m
+[0m[[0mdebug[0m] [0m	found org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.1.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
@@ -398,6 +381,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.7.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.7.0->com.typesafe#config;1.2.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.3.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->runtime][0m
@@ -540,6 +541,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.7.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.7.0->com.typesafe#config;1.2.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.3.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->runtime][0m
@@ -1372,6 +1391,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.7.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.7.0->com.typesafe#config;1.2.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.3.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->runtime][0m
@@ -1982,6 +2019,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.7.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.7.0->com.typesafe#config;1.2.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.3.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->runtime][0m
@@ -2126,6 +2181,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.7.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.7.0->com.typesafe#config;1.2.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.flywaydb#flyway-sbt;3.2.1->org.flywaydb#flyway-core;3.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.flywaydb#flyway-sbt;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scala_test_plugin_created-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.3.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.3.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.1 [compile->runtime][0m
@@ -2656,12 +2729,9 @@
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] de.johoop#jacoco4sbt;2.1.2!jacoco4sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalastyle#scalastyle-sbt-plugin;0.7.0!scalastyle-sbt-plugin.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/jars/sbt-scoverage.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/jars/sbt-scoverage.jar ...[0m
-[0m[[0mdebug[0m] [0m	scoverage-bintray: downloading https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/jars/sbt-scoverage.jar[0m
-[0m[[0mdebug[0m] [0m	scoverage-bintray: downloading https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/jars/sbt-scoverage.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/jars/sbt-scoverage.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scoverage#sbt-scoverage;1.3.0!sbt-scoverage.jar (1957ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.flywaydb#flyway-sbt;3.2.1!flyway-sbt.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.gatling#gatling-sbt;2.1.7!gatling-sbt.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scoverage#sbt-scoverage;1.3.0!sbt-scoverage.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;3.0.0!sbteclipse-plugin.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-core;3.0.0!sbteclipse-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.2!scalaz-core_2.10.jar(bundle)[0m
@@ -2673,12 +2743,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalastyle#scalastyle_2.10;0.7.0!scalastyle_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.danieltrinh#scalariform_2.10;0.1.5!scalariform_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scoverage#scalac-scoverage-plugin_2.10;1.1.1!scalac-scoverage-plugin_2.10.jar (2738ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.flywaydb#flyway-core;3.2.1!flyway-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scoverage#scalac-scoverage-plugin_2.10;1.1.1!scalac-scoverage-plugin_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar[0m
@@ -2734,7 +2800,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 15083ms :: artifacts dl 4822ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1449ms :: artifacts dl 53ms[0m
 [0m[[0mdebug[0m] [0m	report for default#scala_test_plugin_created-build;0.1-SNAPSHOT compile produced in D:\scala soft\sbt_proj\Scala_test_plugin_created\project\target\resolution-cache\reports\default-scala_test_plugin_created-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scala_test_plugin_created-build;0.1-SNAPSHOT runtime produced in D:\scala soft\sbt_proj\Scala_test_plugin_created\project\target\resolution-cache\reports\default-scala_test_plugin_created-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scala_test_plugin_created-build;0.1-SNAPSHOT test produced in D:\scala soft\sbt_proj\Scala_test_plugin_created\project\target\resolution-cache\reports\default-scala_test_plugin_created-build-test.xml[0m
@@ -2748,5 +2814,5 @@
 [0m[[0mdebug[0m] [0m	report for default#scala_test_plugin_created-build;0.1-SNAPSHOT docs produced in D:\scala soft\sbt_proj\Scala_test_plugin_created\project\target\resolution-cache\reports\default-scala_test_plugin_created-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scala_test_plugin_created-build;0.1-SNAPSHOT pom produced in D:\scala soft\sbt_proj\Scala_test_plugin_created\project\target\resolution-cache\reports\default-scala_test_plugin_created-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scala_test_plugin_created-build;0.1-SNAPSHOT scala-tool produced in D:\scala soft\sbt_proj\Scala_test_plugin_created\project\target\resolution-cache\reports\default-scala_test_plugin_created-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (15083ms resolve - 4822ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1449ms resolve - 53ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

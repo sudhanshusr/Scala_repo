@@ -9,28 +9,63 @@
 		extra-sbtVersion="0.13"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150914141016"/>
+		date="20150915161928"/>
 	<dependencies>
 		<module organisation="org.scoverage" name="sbt-scoverage">
-			<revision name="1.3.0" status="release" pubdate="20150723105206" resolver="scoverage-bintray" artresolver="scoverage-bintray" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="14">
+			<revision name="1.3.0" status="release" pubdate="20150723105206" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="17">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1905" time="964" location="C:\Users\sudhanshusr\.ivy2\cache\scala_2.10\sbt_0.13\org.scoverage\sbt-scoverage\ivy-1.3.0.xml" searched="true" original-local-location="C:\Users\sudhanshusr\.ivy2\cache\scala_2.10\sbt_0.13\org.scoverage\sbt-scoverage\ivy-1.3.0.xml.original" origin-is-local="false" origin-location="https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="1907" time="0" location="C:\Users\sudhanshusr\.ivy2\cache\scala_2.10\sbt_0.13\org.scoverage\sbt-scoverage\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml"/>
 				<caller organisation="default" name="scala_test_plugin_created-build" conf="compile" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-scoverage" type="jar" ext="jar" status="successful" details="" size="67705" time="1957" location="C:\Users\sudhanshusr\.ivy2\cache\scala_2.10\sbt_0.13\org.scoverage\sbt-scoverage\jars\sbt-scoverage-1.3.0.jar">
+					<artifact name="sbt-scoverage" type="jar" ext="jar" status="no" details="" size="67705" time="0" location="C:\Users\sudhanshusr\.ivy2\cache\scala_2.10\sbt_0.13\org.scoverage\sbt-scoverage\jars\sbt-scoverage-1.3.0.jar">
 						<origin-location is-local="false" location="https://dl.bintray.com/sksamuel/sbt-plugins/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.3.0/jars/sbt-scoverage.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scoverage" name="scalac-scoverage-plugin_2.10">
-			<revision name="1.1.1" status="release" pubdate="20150722162306" resolver="public" artresolver="public" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+			<revision name="1.1.1" status="release" pubdate="20150722162306" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="3192" time="1049" location="C:\Users\sudhanshusr\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.10\ivy-1.1.1.xml" searched="true" original-local-location="C:\Users\sudhanshusr\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.10\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.pom"/>
+				<metadata-artifact status="no" details="" size="3676" time="0" location="C:\Users\sudhanshusr\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.10\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.pom"/>
 				<caller organisation="org.scoverage" name="sbt-scoverage" conf="compile" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.3.0"/>
 				<artifacts>
-					<artifact name="scalac-scoverage-plugin_2.10" type="jar" ext="jar" status="successful" details="" size="247122" time="2738" location="C:\Users\sudhanshusr\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.10\jars\scalac-scoverage-plugin_2.10-1.1.1.jar">
+					<artifact name="scalac-scoverage-plugin_2.10" type="jar" ext="jar" status="no" details="" size="247122" time="0" location="C:\Users\sudhanshusr\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.10\jars\scalac-scoverage-plugin_2.10-1.1.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.1.1/scalac-scoverage-plugin_2.10-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-sbt">
+			<revision name="2.1.7" status="release" pubdate="20150716222855" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2136" time="0" location="C:\Users\sudhanshusr\.ivy2\cache\scala_2.10\sbt_0.13\io.gatling\gatling-sbt\ivy-2.1.7.xml" searched="false" origin-is-local="false" origin-location="http://dl.bintray.com/content/gatling/sbt-plugins/io.gatling/gatling-sbt/scala_2.10/sbt_0.13/2.1.7/ivys/ivy.xml"/>
+				<caller organisation="default" name="scala_test_plugin_created-build" conf="compile" rev="2.1.7" rev-constraint-default="2.1.7" rev-constraint-dynamic="2.1.7" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="gatling-sbt" type="jar" ext="jar" status="no" details="" size="96084" time="0" location="C:\Users\sudhanshusr\.ivy2\cache\scala_2.10\sbt_0.13\io.gatling\gatling-sbt\jars\gatling-sbt-2.1.7.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/content/gatling/sbt-plugins/io.gatling/gatling-sbt/scala_2.10/sbt_0.13/2.1.7/jars/gatling-sbt.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.flywaydb" name="flyway-sbt">
+			<revision name="3.2.1" status="release" pubdate="20150827175210" resolver="sbt-chain" artresolver="sbt-chain" homepage="" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<metadata-artifact status="no" details="" size="3018" time="0" location="C:\Users\sudhanshusr\.ivy2\cache\scala_2.10\sbt_0.13\org.flywaydb\flyway-sbt\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://flywaydb.org/repo/org/flywaydb/flyway-sbt_2.10_0.13/3.2.1/flyway-sbt-3.2.1.pom"/>
+				<caller organisation="default" name="scala_test_plugin_created-build" conf="compile" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="flyway-sbt" type="jar" ext="jar" status="no" details="" size="107998" time="0" location="C:\Users\sudhanshusr\.ivy2\cache\scala_2.10\sbt_0.13\org.flywaydb\flyway-sbt\jars\flyway-sbt-3.2.1.jar">
+						<origin-location is-local="false" location="http://flywaydb.org/repo/org/flywaydb/flyway-sbt_2.10_0.13/3.2.1/flyway-sbt-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.flywaydb" name="flyway-core">
+			<revision name="3.2.1" status="release" pubdate="20150320202350" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache License, Version 2.0" url="https://github.com/flyway/flyway/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="16669" time="0" location="C:\Users\sudhanshusr\.ivy2\cache\org.flywaydb\flyway-core\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/flywaydb/flyway-core/3.2.1/flyway-core-3.2.1.pom"/>
+				<caller organisation="org.flywaydb" name="flyway-sbt" conf="default, compile, runtime, master" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="3.2.1"/>
+				<artifacts>
+					<artifact name="flyway-core" type="jar" ext="jar" status="no" details="" size="292011" time="0" location="C:\Users\sudhanshusr\.ivy2\cache\org.flywaydb\flyway-core\jars\flyway-core-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/flywaydb/flyway-core/3.2.1/flyway-core-3.2.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -131,7 +166,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20150914141013" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.0" status="integration" pubdate="20150915161925" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="scala_test_plugin_created-build" conf="compile" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>

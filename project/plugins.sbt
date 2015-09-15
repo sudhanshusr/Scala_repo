@@ -5,16 +5,16 @@
 addSbtPlugin("de.johoop" % "jacoco4sbt" % "2.1.2")
 //addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.1.0")
 addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "0.7.0")
-//addSbtPlugin("org.flywaydb" % "flyway-sbt" % "3.2.1")
+addSbtPlugin("org.flywaydb" % "flyway-sbt" % "3.2.1")
 
 resolvers += "Flyway" at "http://flywaydb.org/repo"
 
-//addSbtPlugin("io.gatling" % "gatling-sbt" % "2.1.7")
+addSbtPlugin("io.gatling" % "gatling-sbt" % "2.1.7")
 
 
 
 
-
+resolvers += Resolver.url("gatling", url("http://dl.bintray.com/content/gatling/sbt-plugins/"))(Resolver.ivyStylePatterns)
 resolvers += "sonatype-releases" at "https://oss.sonatype.org/content/repositories/releases/"
 resolvers += Resolver.url("scoverage-bintray", url("https://dl.bintray.com/sksamuel/sbt-plugins/"))(Resolver.ivyStylePatterns)
 

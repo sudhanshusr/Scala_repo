@@ -1,10 +1,10 @@
 <scoverage 
-statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1442221478346">
+statement-count="6" statements-invoked="3" statement-rate="50.00" branch-rate="100.00" version="1.0" timestamp="1442324313350">
     <packages>
-        <package name="com.main.scala" statement-count="6" statements-invoked="0" statement-rate="0.00">
+        <package name="com.main.scala" statement-count="6" statements-invoked="3" statement-rate="50.00">
             <classes>
                 <class 
-                name="HelloSBTScala" filename="com\main\scala\HelloSBTScala.scala" statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                name="HelloSBTScala" filename="com\main\scala\HelloSBTScala.scala" statement-count="6" statements-invoked="3" statement-rate="50.00" branch-rate="100.00">
                     <methods>
                         <method 
                         name="com.main.scala/HelloSBTScala/main" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
@@ -21,16 +21,16 @@ statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.
                             </statements>
 </method>
                         <method 
-                        name="com.main.scala/HelloSBTScala/hello" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                        name="com.main.scala/HelloSBTScala/hello" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="com.main.scala" class="HelloSBTScala" class-type="Class" top-level-class="HelloSBTScala" source="D:\scala soft\sbt_proj\Scala_test_plugin_created\src\main\scala\com\main\scala\HelloSBTScala.scala" method="hello" start="97" end="101" line="3" branch="false" invocation-count="0" ignored="false">
+                                package="com.main.scala" class="HelloSBTScala" class-type="Class" top-level-class="HelloSBTScala" source="D:\scala soft\sbt_proj\Scala_test_plugin_created\src\main\scala\com\main\scala\HelloSBTScala.scala" method="hello" start="97" end="101" line="3" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.main.scala" class="HelloSBTScala" class-type="Class" top-level-class="HelloSBTScala" source="D:\scala soft\sbt_proj\Scala_test_plugin_created\src\main\scala\com\main\scala\HelloSBTScala.scala" method="hello" start="88" end="96" line="3" branch="false" invocation-count="0" ignored="false">
+                                package="com.main.scala" class="HelloSBTScala" class-type="Class" top-level-class="HelloSBTScala" source="D:\scala soft\sbt_proj\Scala_test_plugin_created\src\main\scala\com\main\scala\HelloSBTScala.scala" method="hello" start="88" end="96" line="3" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.main.scala" class="HelloSBTScala" class-type="Class" top-level-class="HelloSBTScala" source="D:\scala soft\sbt_proj\Scala_test_plugin_created\src\main\scala\com\main\scala\HelloSBTScala.scala" method="hello" start="88" end="101" line="3" branch="false" invocation-count="0" ignored="false">
+                                package="com.main.scala" class="HelloSBTScala" class-type="Class" top-level-class="HelloSBTScala" source="D:\scala soft\sbt_proj\Scala_test_plugin_created\src\main\scala\com\main\scala\HelloSBTScala.scala" method="hello" start="88" end="101" line="3" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
