@@ -6,8 +6,8 @@
 		module="scala_test_plugin_created_2.11"
 		revision="0.1.0"
 		conf="runtime"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
-		date="20150915190755"/>
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco, findbugs"
+		date="20150917130855"/>
 	<dependencies>
 		<module organisation="com.h2database" name="h2">
 			<revision name="1.3.174" status="release" pubdate="20131019133713" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">

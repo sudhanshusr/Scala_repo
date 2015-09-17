@@ -16,3 +16,8 @@ compile
 test
 coverage
 coverageReport
+exit
+findbugsReportType
+findbugsReportType -xml
+findbugsReportType-xml
+findbugs

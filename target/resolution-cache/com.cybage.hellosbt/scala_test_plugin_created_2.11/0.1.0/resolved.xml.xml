@@ -4,7 +4,7 @@
 		module="scala_test_plugin_created_2.11"
 		revision="0.1.0"
 		status="integration"
-		publication="20150915190755"
+		publication="20150917130855"
 	>
 		<description>
 		Scala_test_plugin_created
@@ -25,6 +25,7 @@
 		<conf name="pom" visibility="public" description=""/>
 		<conf name="scala-tool" visibility="private" description=""/>
 		<conf name="jacoco" visibility="private" description="" extends="test"/>
+		<conf name="findbugs" visibility="private" description=""/>
 	</configurations>
 	<publications>
 		<artifact name="scala_test_plugin_created_2.11" type="pom" ext="pom" conf="pom"/>
@@ -37,6 +38,8 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scoverage" name="scalac-scoverage-runtime_2.11" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
 		<dependency org="org.scoverage" name="scalac-scoverage-plugin_2.11" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
+		<dependency org="com.google.code.findbugs" name="findbugs" rev="3.0.0" conf="findbugs->default"/>
+		<dependency org="com.google.code.findbugs" name="jsr305" rev="3.0.0" conf="findbugs->default"/>
 		<dependency org="junit" name="junit" rev="4.10" conf="compile->default(compile)"/>
 		<dependency org="com.novocode" name="junit-interface" rev="0.11" conf="test->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.4" conf="test->default(compile)"/>

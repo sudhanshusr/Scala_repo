@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="0" timestamp="1442324276396" analysisTimestamp="1442475574250" release="">
+  <Project projectName="">
+    <Jar>D:\scala soft\sbt_proj\Scala_test_plugin_created\target\scala-2.11\classes</Jar>
+    <AuxClasspathEntry>C:\Users\sudhanshusr\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\sudhanshusr\.ivy2\cache\junit\junit\jars\junit-4.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\sudhanshusr\.ivy2\cache\org.hamcrest\hamcrest-core\jars\hamcrest-core-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\sudhanshusr\.ivy2\cache\com.h2database\h2\jars\h2-1.3.174.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\sudhanshusr\.ivy2\cache\org.scoverage\scalac-scoverage-runtime_2.11\jars\scalac-scoverage-runtime_2.11-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\sudhanshusr\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.11\jars\scalac-scoverage-plugin_2.11-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\sudhanshusr\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.0.jar</AuxClasspathEntry>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 15 Sep 2015 19:07:56 +0530" total_classes="3" referenced_classes="18" total_bugs="0" total_size="33" num_packages="2" java_version="1.8.0_11" vm_version="25.11-b03" cpu_seconds="3.62" clock_seconds="1.38" peak_mbytes="89.19" alloc_mbytes="910.50" gc_seconds="0.03">
+    <PackageStats package="com.main.java" total_bugs="0" total_types="1" total_size="16">
+      <ClassStats class="com.main.java.HelloSBTJava" sourceFile="HelloSBTJava.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.main.scala" total_bugs="0" total_types="2" total_size="17">
+      <ClassStats class="com.main.scala.HelloSBTScala" sourceFile="HelloSBTScala.scala" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.main.scala.HelloSBTScala$" sourceFile="HelloSBTScala.scala" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="430" invocations="507" avgMicrosecondsPerInvocation="850" maxMicrosecondsPerInvocation="26273" standardDeviationMircosecondsPerInvocation="2306"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="177" invocations="506" avgMicrosecondsPerInvocation="350" maxMicrosecondsPerInvocation="11290" standardDeviationMircosecondsPerInvocation="854"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="61" invocations="18" avgMicrosecondsPerInvocation="3409" maxMicrosecondsPerInvocation="18726" standardDeviationMircosecondsPerInvocation="4835"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="33" invocations="25" avgMicrosecondsPerInvocation="1326" maxMicrosecondsPerInvocation="15348" standardDeviationMircosecondsPerInvocation="4129"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="31" invocations="474" avgMicrosecondsPerInvocation="66" maxMicrosecondsPerInvocation="3193" standardDeviationMircosecondsPerInvocation="176"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="27" invocations="11" avgMicrosecondsPerInvocation="2541" maxMicrosecondsPerInvocation="25721" standardDeviationMircosecondsPerInvocation="7339"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="26" invocations="74" avgMicrosecondsPerInvocation="363" maxMicrosecondsPerInvocation="13623" standardDeviationMircosecondsPerInvocation="1606"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,3 +1,4 @@
+
 //Organization
 organization := "com.cybage.hellosbt"
 
@@ -10,9 +11,15 @@ scalaVersion := "2.11.6"
 //Name of Project
 name := "Scala_test_plugin_created"
 
+
+
 jacoco.settings
 
 coverageEnabled := true
+
+import de.johoop.findbugs4sbt.FindBugs._
+
+findbugsSettings
 
 
 libraryDependencies ++= 
