@@ -21,3 +21,9 @@ findbugsReportType
 findbugsReportType -xml
 findbugsReportType-xml
 findbugs
+clean
+compile
+test
+coverage
+coverageReport
+findbugs

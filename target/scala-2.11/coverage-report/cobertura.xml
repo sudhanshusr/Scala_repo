@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
 <coverage 
-line-rate="0.50" lines-covered="6" lines-valid="3" branches-covered="0" branches-valid="0" branch-rate="1.00" complexity="0" version="1.0" timestamp="1442324313350">
+line-rate="0.50" lines-covered="6" lines-valid="3" branches-covered="0" branches-valid="0" branch-rate="1.00" complexity="0" version="1.0" timestamp="1442483634387">
     <sources>
         <source>--source</source>
         <source>D:/scala soft/sbt_proj/Scala_test_plugin_created/src/main/scala-2.11</source>

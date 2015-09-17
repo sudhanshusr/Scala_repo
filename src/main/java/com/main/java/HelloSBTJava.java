@@ -9,6 +9,10 @@ public class HelloSBTJava {
 	public String hello(){
 		return "Hello "+name;
 	}
+	
+	public String foundType() {
+		return this.foundType();
+		   }
 	public static void main(String args[]){
 		HelloSBTJava obj = new HelloSBTJava("Cybage");
 		String msg = obj.hello();
