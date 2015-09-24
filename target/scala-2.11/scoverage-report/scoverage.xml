@@ -1,5 +1,5 @@
 <scoverage 
-statement-count="31" statements-invoked="3" statement-rate="9.68" branch-rate="100.00" version="1.0" timestamp="1443085634025">
+statement-count="31" statements-invoked="3" statement-rate="9.68" branch-rate="100.00" version="1.0" timestamp="1443086542650">
     <packages>
         <package name="com.main.scala" statement-count="31" statements-invoked="3" statement-rate="9.68">
             <classes>
