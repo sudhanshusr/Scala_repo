@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
 <coverage 
-line-rate="0.50" lines-covered="6" lines-valid="3" branches-covered="0" branches-valid="0" branch-rate="1.00" complexity="0" version="1.0" timestamp="1442483634387">
+line-rate="0.10" lines-covered="31" lines-valid="3" branches-covered="0" branches-valid="0" branch-rate="1.00" complexity="0" version="1.0" timestamp="1443085633976">
     <sources>
         <source>--source</source>
         <source>D:/scala soft/sbt_proj/Scala_test_plugin_created/src/main/scala-2.11</source>
@@ -9,33 +9,99 @@ line-rate="0.50" lines-covered="6" lines-valid="3" branches-covered="0" branches
         <source>D:/scala soft/sbt_proj/Scala_test_plugin_created/src/main/java</source>
     </sources>
     <packages>
-        <package name="com.main.scala" line-rate="0.50" branch-rate="1.00" complexity="0">
+        <package name="com.main.scala" line-rate="0.10" branch-rate="1.00" complexity="0">
             <classes>
                 <class 
-                name="HelloSBTScala" filename="com/main/scala/HelloSBTScala.scala" line-rate="0.50" branch-rate="1.00" complexity="0">
+                name="HelloSBTScala" filename="com/main/scala/HelloSBTScala.scala" line-rate="0.10" branch-rate="1.00" complexity="0">
                     <methods>
-                        <method name="com.main.scala/HelloSBTScala/main" signature="()V" line-rate="0.00" branch-rate="0.00">
+                        <method name="com.main.scala/HelloSBTScala/add" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="7" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.main.scala/HelloSBTScala/addz" signature="()V" line-rate="0.00" branch-rate="0.00">
                             <lines>
                                 <line number="8" hits="0" branch="false"/>
-                                <line number="7" hits="0" branch="false"/>
-                                <line number="8" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.main.scala/HelloSBTScala/test2" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="30" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="27" hits="0" branch="false"/>
+                                <line number="29" hits="0" branch="false"/>
+                                <line number="23" hits="0" branch="false"/>
+                                <line number="26" hits="0" branch="false"/>
+                                <line number="25" hits="0" branch="false"/>
+                                <line number="28" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
                             </lines>
                         </method>
                         <method name="com.main.scala/HelloSBTScala/hello" signature="()V" line-rate="1.00" branch-rate="1.00">
                             <lines>
-                                <line number="3" hits="1" branch="false"/>
-                                <line number="3" hits="1" branch="false"/>
-                                <line number="3" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.main.scala/HelloSBTScala/main" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="41" hits="0" branch="false"/>
+                                <line number="44" hits="0" branch="false"/>
+                                <line number="46" hits="0" branch="false"/>
+                                <line number="41" hits="0" branch="false"/>
+                                <line number="43" hits="0" branch="false"/>
+                                <line number="42" hits="0" branch="false"/>
+                                <line number="45" hits="0" branch="false"/>
+                                <line number="39" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.main.scala/HelloSBTScala/test1" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="12" hits="0" branch="false"/>
+                                <line number="15" hits="0" branch="false"/>
+                                <line number="18" hits="0" branch="false"/>
+                                <line number="17" hits="0" branch="false"/>
+                                <line number="11" hits="0" branch="false"/>
+                                <line number="14" hits="0" branch="false"/>
+                                <line number="13" hits="0" branch="false"/>
+                                <line number="16" hits="0" branch="false"/>
+                                <line number="10" hits="0" branch="false"/>
                             </lines>
                         </method>
                     </methods>
                     <lines>
-                        <line number="3" hits="1" branch="false"/>
+                        <line number="30" hits="0" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="12" hits="0" branch="false"/>
+                        <line number="41" hits="0" branch="false"/>
+                        <line number="15" hits="0" branch="false"/>
+                        <line number="44" hits="0" branch="false"/>
+                        <line number="27" hits="0" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
                         <line number="8" hits="0" branch="false"/>
+                        <line number="18" hits="0" branch="false"/>
                         <line number="7" hits="0" branch="false"/>
-                        <line number="3" hits="1" branch="false"/>
-                        <line number="3" hits="1" branch="false"/>
-                        <line number="8" hits="0" branch="false"/>
+                        <line number="17" hits="0" branch="false"/>
+                        <line number="46" hits="0" branch="false"/>
+                        <line number="29" hits="0" branch="false"/>
+                        <line number="11" hits="0" branch="false"/>
+                        <line number="23" hits="0" branch="false"/>
+                        <line number="41" hits="0" branch="false"/>
+                        <line number="14" hits="0" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="43" hits="0" branch="false"/>
+                        <line number="26" hits="0" branch="false"/>
+                        <line number="42" hits="0" branch="false"/>
+                        <line number="13" hits="0" branch="false"/>
+                        <line number="25" hits="0" branch="false"/>
+                        <line number="28" hits="0" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="16" hits="0" branch="false"/>
+                        <line number="45" hits="0" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="39" hits="0" branch="false"/>
+                        <line number="10" hits="0" branch="false"/>
                     </lines>
 </class>
             </classes>

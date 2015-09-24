@@ -17,9 +17,24 @@ jacoco.settings
 
 coverageEnabled := true
 
+coverageMinimum := 5
+
+coverageFailOnMinimum := true
+
+coverageExcludedPackages := "<empty>;Reverse.*;.*AuthService.*;models\\.data\\..*"
+
 import de.johoop.findbugs4sbt.FindBugs._
 
 findbugsSettings
+
+findbugsReportType := Some(de.johoop.findbugs4sbt.ReportType.Html)
+
+
+//import de.johoop.cpd4sbt.CopyPasteDetector._
+
+//cpdSettings
+
+val myProject = (project in file(".")).enablePlugins(CpdPlugin)
 
 
 libraryDependencies ++= 
@@ -32,8 +47,7 @@ libraryDependencies += "org.seleniumhq.selenium" % "selenium-java" % "2.35.0" % 
 
 libraryDependencies ++= Seq(
     "com.h2database" % "h2" % "1.3.174"
-)
-    		
+)	
 			
 
     		

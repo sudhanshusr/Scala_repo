@@ -11,4 +11,10 @@ class TestHelloSBTScala extends FunSuite {
     assert("Hello World" == "Hello World")
   }
   test("test case"){assert( obj.hello() == "Hello check")}
+  
+  println("hello")
+    println("world")
+    println("hello")
+    println("world")
+    println("hello")
 }

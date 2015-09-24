@@ -21,5 +21,5 @@ resolvers += Resolver.url("scoverage-bintray", url("https://dl.bintray.com/sksam
 //addSbtPlugin("de.johoop" % "jacoco4sbt" % "2.1.1")
 addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.3.0")
 addSbtPlugin("de.johoop" % "findbugs4sbt" % "1.4.0")
-
-
+//addSbtPlugin("de.johoop" % "cpd4sbt" % "1.1.5")
+addSbtPlugin("com.github.ajtkulov" % "scala-cpd" % "0.2")
